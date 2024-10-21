@@ -3,8 +3,8 @@
 ## TL;DR
 
 <div align='center'>
-  <img alt="Designs of self-attention modules." src="assets/design.svg" width="500">
   Designs of self-attention modules
+  <img alt="Designs of self-attention modules." src="assets/design.svg">
 </div>
 
 <br>
@@ -91,36 +91,36 @@ The evaluation data is saved as `data/post_processed_results_56.pkl` and the eva
 We also report performance per game and collate the games that are won by each agent to see if there is any correlation between the inductive biases of the agents and the game mechanics. 
 
 <div align='center'>
+  Games won by the PPO baseline
   <img alt="Games won by the NA agent." src="assets/games_won_by_NA.gif">
-  Games won by the PPO baseline.
 </div>
 
 <br>
 
 <div align='center'>
-  <img alt="Games won by the SWA agent." src="assets/games_won_by_SWA.gif" height="106">
-  Games won by the SWA agent.
+  Games won by the SWA agent
+  <img alt="Games won by the SWA agent." src="assets/games_won_by_SWA.gif" height="150">
 </div>
 
 <br>
 
 <div align='center'>
+  Games won by the CWRA agent
   <img alt="Games won by the CWRA agent." src="assets/games_won_by_CWRA.gif">
-  Games won by the CWRA agent.
 </div>
 
 <br>
 
 <div align='center'>
-  <img alt="Games won by the CWCA agent." src="assets/games_won_by_CWCA.gif" height="212">
-  Games won by the CWCA agent.
+  Games won by the CWCA agent
+  <img alt="Games won by the CWCA agent." src="assets/games_won_by_CWCA.gif" height="300">
 </div>
 
 <br>
 
 <div align='center'>
-  <img alt="Games won by the CWRCA agent." src="assets/games_won_by_CWRCA.gif" height="106">
-  Games won by the CWRCA agent.
+  Games won by the CWRCA agent
+  <img alt="Games won by the CWRCA agent." src="assets/games_won_by_CWRCA.gif" height="150">
 </div>
 
 <br>
@@ -128,11 +128,11 @@ We also report performance per game and collate the games that are won by each a
 ### Interpretability
 
 The data used for the interpretability study are stored in the `gradcam` folder where the observations are saved as `.npy` files and the model checkpoints are saved as `.zip` archives. <br>
-The plots from the section interpretability study can be reproduced using the `interpretability.ipynb`. 
+The plots from the section interpretability study can be reproduced using the `interpretability.ipynb`. <br>
+Based on the attended feature maps, we hypothesize that self-attention modules may produce various artifacts that subtly influence agents' learning performances.
 
 <div align='center'>
-  <img alt="Interpretability study using the Pong game." src="assets/interpretability_pong.png" width="500">
-  Based on the attended feature maps, we hypothesize that self-attention modules may produce various artifacts that subtly influence agents' learning performances. 
+  <img alt="Interpretability study using the Pong game." src="assets/interpretability_pong.png"> 
 </div>
 
 <br>
