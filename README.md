@@ -99,7 +99,7 @@ We also report performance per game and collate the games that are won by each a
 
 <div align='center'>
   Games won by the SWA agent
-  <img alt="Games won by the SWA agent." src="assets/games_won_by_SWA.gif" height="180">
+  <img alt="Games won by the SWA agent." src="assets/games_won_by_SWA.gif" height="200">
 </div>
 
 <br>
@@ -132,7 +132,7 @@ The plots from the section interpretability study can be reproduced using the `i
 Based on the attended feature maps, we hypothesize that self-attention modules may produce various artifacts that subtly influence agents' learning performances.
 
 <div align='center'>
-  <img alt="Interpretability study using the Pong game." src="assets/interpretability_pong.png" width="525"> 
+  <img alt="Interpretability study using the Pong game." src="assets/interpretability_pong.png"> 
 </div>
 
 <br>
