@@ -3,9 +3,11 @@
 ## TL;DR
 
 <div align='center'>
-  <img alt="Designs of self-attention modules." src="assets/design.svg">
-  Designs of self-attention modules.
+  <img alt="Designs of self-attention modules." src="assets/design.svg" width="500">
+  Designs of self-attention modules
 </div>
+
+<br>
 
 - We focus on investigating the underlying operation of the self-attention mechanism and its impact on sample efficiency by designing various self-attention modules and evaluating them with a baseline RL algorithm in the Arcade Learning Environment (ALE).
 - Our key findings indicate that different self-attention modules affect the agent’s learning process differently, possibly due to the unique inductive bias of each self-attention module.
@@ -93,25 +95,35 @@ We also report performance per game and collate the games that are won by each a
   Games won by the PPO baseline.
 </div>
 
+<br>
+
 <div align='center'>
-  <img alt="Games won by the SWA agent." src="assets/games_won_by_SWA.gif">
+  <img alt="Games won by the SWA agent." src="assets/games_won_by_SWA.gif" height="106">
   Games won by the SWA agent.
 </div>
+
+<br>
 
 <div align='center'>
   <img alt="Games won by the CWRA agent." src="assets/games_won_by_CWRA.gif">
   Games won by the CWRA agent.
 </div>
 
+<br>
+
 <div align='center'>
-  <img alt="Games won by the CWCA agent." src="assets/games_won_by_CWCA.gif">
+  <img alt="Games won by the CWCA agent." src="assets/games_won_by_CWCA.gif" height="212">
   Games won by the CWCA agent.
 </div>
 
+<br>
+
 <div align='center'>
-  <img alt="Games won by the CWRCA agent." src="assets/games_won_by_CWRCA.gif">
+  <img alt="Games won by the CWRCA agent." src="assets/games_won_by_CWRCA.gif" height="106">
   Games won by the CWRCA agent.
 </div>
+
+<br>
 
 ### Interpretability
 
@@ -119,9 +131,11 @@ The data used for the interpretability study are stored in the `gradcam` folder 
 The plots from the section interpretability study can be reproduced using the `interpretability.ipynb`. 
 
 <div align='center'>
-  <img alt="Interpretability study using the Pong game." src="assets/interpretability_pong.png">
+  <img alt="Interpretability study using the Pong game." src="assets/interpretability_pong.png" width="500">
   Based on the attended feature maps, we hypothesize that self-attention modules may produce various artifacts that subtly influence agents' learning performances. 
 </div>
+
+<br>
 
 ## Credits
 
